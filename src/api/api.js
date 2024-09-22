@@ -33,3 +33,4 @@ export const getCAPARecordById = async (id) => axios.get(`${API_URL}/capa/${id}`
 
 // Create CAPA entry
 export const createCAPA = async (capaData) => axios.post(`${API_URL}/capa`, capaData);
+export const getDefectReport = async () => axios.get(`${API_URL}/defects/report`);
